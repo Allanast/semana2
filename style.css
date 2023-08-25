@@ -1,0 +1,62 @@
+body, html {
+    margin: auto;
+    padding: 2%;
+    background-color: #eebd92;
+    text-align: center;
+}
+header {
+    background-color: eebd92;
+    color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
+#imagem_fundo {
+    background: url(https://th.bing.com/th/id/OIP.mXzJ6T9vxGoDivtG-zHFrgHaCx?pid=ImgDet&rs=1);
+    height: 50%;
+    text-align: center;
+}
+#titulo {
+    color:white ;
+    padding-top:15px ;
+    font-size:25px ;
+    line-height: 0.7
+}
+#logo {
+    width: 188px;
+    position: center;
+    top: 20px;
+    margin-left: 10%;
+    
+}
+#menu {
+   
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+#fundo_fatos {
+    width: 300px;
+    position: center;
+    top: 20px;
+    margin-left: 30%;
+
+}
+li {
+    float: left;
+    padding: 0;
+    
+}
+li:hover {
+    background-color: #eb352f;
+}
+footer {
+    background-color: #f8b45b;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: rgb(5, 3, 3);
+}
